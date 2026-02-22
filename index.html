@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Your Name — Portfolio</title>
+		<meta name="description" content="Portfolio of Your Name — projects, skills, contact" />
+		<!-- Futuristic display font for the logo -->
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container nav-row">
+				<!-- logo removed as requested -->
+				<button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+				<nav class="site-nav" id="siteNav">
+					<a href="#about"><span>About</span></a>
+					<a href="#education"><span>Education</span></a>
+					<a href="#experience"><span>Experience</span></a>
+					<a href="#projects"><span>Projects</span></a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section id="about" class="hero">
+				<div class="container">
+					<div class="hero-grid">
+						<div class="hero-left">
+						  <h2 class="hero-greeting">Hello, I am Samuel.</h2>
+						  <h1>
+						    <a href="#" class="typewrite" data-period="2000" data-type='["I build reliable backend systems.","I work with data, APIs, and scalable software.","Always learning, always building."]'>
+						      <span class="wrap"></span>
+						    </a>
+						  </h1>
+						  <p class="hero-bio">I enjoy automating workflows and building full stack applications that reduce friction in everyday processes. I like working with data to design reliable systems and improve how information flows through applications. Through leadership roles and team-based projects, I have learned the importance of clear communication, ownership, and collaboration. I enjoy working in environments where thoughtful engineering and strong teamwork go hand in hand.</p>
+						</div>
+						<div class="hero-right">
+							<img src="assets/img/Intro_photo.jpg" alt="Samuel" class="hero-photo">
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+			<section id="education" class="section">
+				<div class="container">
+					<h2>Education</h2>
+					<div class="edu-panel">
+						<div class="edu-header">
+							<div class="edu-summary">
+								<p><strong>University of Texas at Arlington</strong></p>
+								<p>B.S. in Computer Science | 2022–2026 | GPA: 3.92</p>
+							</div>
+							<button class="expand-toggle" aria-expanded="false" aria-controls="eduContent"><span>+</span></button>
+						</div>
+						<div id="eduContent" class="edu-content">
+							<div class="edu-expanded-content">
+								<div class="edu-divider"></div>
+								<h3>Organizations</h3>
+								
+								<div class="edu-item">
+									<p><strong>Honors College</strong></p>
+									<p>Aug 2022 – Present</p>
+								</div>
+								
+								<div class="edu-item">
+									<p><strong>Leadership Honors Program (LHP)</strong></p>
+									<p>Student Director and Member</p>
+									<p>Aug 2023 – Present</p>
+								</div>
+								
+								<div class="edu-item edu-item-last">
+									<p><strong>inSTEM National STEM Scholars Network</strong></p>
+									<p>Scholar</p>
+									<p>Aug 2022 – Present</p>
+								</div>
+								
+								<div class="edu-divider"></div>
+								<h3>Honors and Awards</h3>
+								
+								<div class="edu-item">
+									<p><strong>inSTEM Scholar Award</strong></p>
+									<p>Fall 2024, Spring 2025</p>
+								</div>
+								
+								<div class="edu-item">
+									<p><strong>Dana Dunn Endowed Scholarship</strong></p>
+									<p>Awarded Aug 2025</p>
+								</div>
+								
+								<div class="edu-item">
+									<p><strong>Mike Jarrett Endowed Scholarship</strong></p>
+									<p>Awarded Aug 2025</p>
+								</div>
+								
+								<div class="edu-item edu-item-last">
+									<p><strong>Maverick Academic Scholarship</strong></p>
+									<p>Awarded Aug 2022</p>
+								</div>
+								
+								<div class="edu-divider"></div>
+								
+								<div class="transcript-link">
+									<a href="assets/docs/transcript_fall_25.pdf" download class="transcript-download"><span>Download Transcript</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="experience" class="section">
+				<div class="container">
+					<h2>Experience</h2>
+					<div class="timeline">
+						<div class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3>Research Assistant</h3>
+								<p class="timeline-company">IT Lab, University of Texas at Arlington</p>
+								<p class="timeline-date">Jan 2024 – Present</p>
+								<ul class="timeline-details">
+									<li>Contributed to research projects in event-based vision and intelligent systems</li>
+									<li>Worked on backend components including query planning, parsing, and data mapping</li>
+									<li>Participated in regular in-person research meetings with sustained contributions across semesters</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3>Student Director</h3>
+								<p class="timeline-company">Leadership Honors Program, University of Texas at Arlington</p>
+								<p class="timeline-date">Aug 2023 – Present</p>
+								<ul class="timeline-details">
+									<li>Organized workshops, events, and service initiatives for leadership development</li>
+									<li>Mentored peers and contributed to program outreach and engagement</li>
+									<li>Worked closely with faculty and student leadership teams</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3>Software Engineering Intern</h3>
+								<p class="timeline-company">Global Media Insight</p>
+								<p class="timeline-date">May 2023 – Jul 2023</p>
+								<ul class="timeline-details">
+									<li>Developed backend features using PHP and SQL for production applications</li>
+									<li>Designed RESTful APIs and integrated frontend components</li>
+									<li>Optimized database queries and resolved production issues</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3>Software Engineering Intern</h3>
+								<p class="timeline-company">Cognizant</p>
+								<p class="timeline-date">Jan 2022 – Feb 2022</p>
+								<ul class="timeline-details">
+									<li>Built Python automation scripts to streamline enterprise workflows</li>
+									<li>Worked in Agile teams using Git and standard development practices</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3>Student Research Assistant</h3>
+								<p class="timeline-company">Manipal Academy of Higher Education</p>
+								<p class="timeline-date">Nov 2021 – Dec 2021</p>
+								<ul class="timeline-details">
+									<li>Assisted with data analysis, experimentation, and technical documentation</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="projects" class="section">
+				<div class="container">
+					<h2>Projects</h2>
+					<div class="projects-filter">
+						<button class="filter-tag active" data-tag="all">All</button>
+						<button class="filter-tag" data-tag="featured">Featured</button>
+						<button class="filter-tag" data-tag="backend">Backend</button>
+						<button class="filter-tag" data-tag="full-stack">Full Stack</button>
+						<button class="filter-tag" data-tag="data">Data</button>
+						<button class="filter-tag" data-tag="machine-learning">Machine Learning</button>
+						<button class="filter-tag" data-tag="systems">Systems</button>
+						<button class="filter-tag" data-tag="automation">Automation</button>
+						<button class="filter-tag" data-tag="robotics">Robotics</button>
+						<button class="filter-tag" data-tag="visualization">Visualization</button>
+					</div>
+					<div class="projects-count">
+						<span id="projectCount">10</span> projects visible
+					</div>
+					<div class="projects-grid">
+						<article class="project-card" data-tags="featured backend systems">
+							<h3>Distributed Task Scheduler</h3>
+							<p>High-performance distributed system for scheduling and executing tasks across multiple nodes.</p>
+							<div class="project-tags">
+								<span class="project-tag">Featured</span>
+								<span class="project-tag">Backend</span>
+								<span class="project-tag">Systems</span>
+							</div>
+							<div class="project-links">
+								<a href="https://github.com/samuelmv29/Distributed-Task-Scheduler" class="project-link" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+							</div>
+						</article>
+					
+						<article class="project-card" data-tags="data automation visualization">
+							<h3>SurveySphere</h3>
+							<p>Simulates a COACHE-style Faculty Climate & Satisfaction Survey with 25 report pages, interactive charts, sortable tables, and one-click offline export.</p>
+							<div class="project-tags">
+								<span class="project-tag">Data</span>
+								<span class="project-tag">Automation</span>
+								<span class="project-tag">Visualization</span>
+								
+							</div>
+							<div class="project-links">
+								<a href="https://github.com/samuelmv29/Survey_generator" class="project-link" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+							</div>
+						</article>
+						
+						<article class="project-card" data-tags="full-stack automation visualization">
+							<h3>NoteFlow</h3>
+							<p>A lightweight, fully offline notes application built with vanilla HTML/CSS/JS. Features rich text editing, tags, filtering, dark/light mode, and one-click export to self-contained HTML files.</p>
+							<div class="project-tags">
+								<span class="project-tag">Full Stack</span>
+								<span class="project-tag">Automation</span>
+								<span class="project-tag">Visualization</span>
+							</div>
+							<div class="project-links">
+								<a href="https://github.com/samuelmv29/NoteFlow" class="project-link" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+							</div>
+						</article>
+						
+						<article class="project-card" data-tags="featured full-stack data">
+							<h3>Real-Time Analytics Dashboard</h3>
+							<p>Interactive dashboard for visualizing and analyzing real-time data streams with live updates.</p>
+							<div class="project-tags">
+								<span class="project-tag">Featured</span>
+								<span class="project-tag">Full Stack</span>
+								<span class="project-tag">Data</span>
+							</div>
+							<div class="project-links">
+								<a href="#" class="project-link" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+							</div>
+						</article>
+						<article class="project-card" data-tags="backend automation">
+							<h3>CI/CD Pipeline Automation</h3>
+							<p>Automated deployment pipeline with testing, building, and deployment workflows.</p>
+							<div class="project-tags">
+								<span class="project-tag">Backend</span>
+								<span class="project-tag">Automation</span>
+							</div>
+							<div class="project-links">
+								<a href="#" class="project-link" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+							</div>
+						</article>
+						<article class="project-card" data-tags="machine-learning data">
+							<h3>Predictive Model Framework</h3>
+							<p>Machine learning framework for building and deploying predictive models with automated training.</p>
+							<div class="project-tags">
+								<span class="project-tag">Machine Learning</span>
+								<span class="project-tag">Data</span>
+							</div>
+							<div class="project-links">
+								<a href="#" class="project-link" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+							</div>
+						</article>
+						<article class="project-card" data-tags="full-stack visualization">
+							<h3>Data Visualization Platform</h3>
+							<p>Web platform for creating interactive data visualizations with custom chart types and filters.</p>
+							<div class="project-tags">
+								<span class="project-tag">Full Stack</span>
+								<span class="project-tag">Visualization</span>
+							</div>
+							<div class="project-links">
+								<a href="#" class="project-link" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+							</div>
+						</article>
+						<article class="project-card" data-tags="backend systems">
+							<h3>API Gateway Service</h3>
+							<p>Microservices API gateway with routing, authentication, and rate limiting capabilities.</p>
+							<div class="project-tags">
+								<span class="project-tag">Backend</span>
+								<span class="project-tag">Systems</span>
+							</div>
+							<div class="project-links">
+								<a href="#" class="project-link" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+							</div>
+						</article>
+						<article class="project-card" data-tags="robotics automation">
+							<h3>Autonomous Navigation System</h3>
+							<p>Robotic navigation system with path planning and obstacle avoidance for autonomous vehicles.</p>
+							<div class="project-tags">
+								<span class="project-tag">Robotics</span>
+								<span class="project-tag">Automation</span>
+							</div>
+							<div class="project-links">
+								<a href="#" class="project-link" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+							</div>
+						</article>
+						<article class="project-card" data-tags="data machine-learning">
+							<h3>Time Series Analysis Tool</h3>
+							<p>Tool for analyzing time series data with statistical methods and machine learning predictions.</p>
+							<div class="project-tags">
+								<span class="project-tag">Data</span>
+								<span class="project-tag">Machine Learning</span>
+							</div>
+							<div class="project-links">
+								<a href="#" class="project-link" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+							</div>
+						</article>
+						<article class="project-card" data-tags="full-stack backend">
+							<h3>E-Commerce Backend API</h3>
+							<p>RESTful API for e-commerce platform with product management and order processing.</p>
+							<div class="project-tags">
+								<span class="project-tag">Full Stack</span>
+								<span class="project-tag">Backend</span>
+							</div>
+							<div class="project-links">
+								<a href="#" class="project-link" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+							</div>
+						</article>
+						<article class="project-card" data-tags="automation systems">
+							<h3>Infrastructure Monitoring System</h3>
+							<p>Automated monitoring system for tracking infrastructure health and performance metrics.</p>
+							<div class="project-tags">
+								<span class="project-tag">Automation</span>
+								<span class="project-tag">Systems</span>
+							</div>
+							<div class="project-links">
+								<a href="#" class="project-link" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<section id="skills" class="section">
+				<div class="container">
+					<h2>Skills</h2>
+					<div class="skills-cloud">
+						<span class="skill-item skill-large">Python</span>
+						<span class="skill-item skill-medium">Java</span>
+						<span class="skill-item skill-large">C</span>
+						<span class="skill-item skill-medium">C++</span>
+						<span class="skill-item skill-large">JavaScript</span>
+						<span class="skill-item skill-medium">SQL</span>
+						<span class="skill-item skill-category">Backend and Full Stack</span>
+						<span class="skill-item skill-small">Backend application development</span>
+						<span class="skill-item skill-medium">RESTful APIs</span>
+						<span class="skill-item skill-small">Full stack web applications</span>
+						<span class="skill-item skill-small">Workflow and task automation</span>
+						<span class="skill-item skill-category">Data and Machine Learning</span>
+						<span class="skill-item skill-small">Data processing and analysis</span>
+						<span class="skill-item skill-small">Applied machine learning</span>
+						<span class="skill-item skill-small">Experimental evaluation and iteration</span>
+						<span class="skill-item skill-small">Data visualization</span>
+						<span class="skill-item skill-category">Systems</span>
+						<span class="skill-item skill-small">Systems programming fundamentals</span>
+						<span class="skill-item skill-small">Memory and process management</span>
+						<span class="skill-item skill-small">Scheduling and concurrency basics</span>
+						<span class="skill-item skill-category">Tools</span>
+						<span class="skill-item skill-medium">Git and GitHub</span>
+						<span class="skill-item skill-medium">Linux</span>
+						<span class="skill-item skill-medium">SQL databases</span>
+						<span class="skill-item skill-category">Leadership</span>
+						<span class="skill-item skill-small">Team collaboration</span>
+						<span class="skill-item skill-small">Technical communication</span>
+						<span class="skill-item skill-small">Mentorship and coordination</span>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact" class="section">
+				<div class="container">
+					<h2>Contact</h2>
+					<div class="contact-grid">
+						<div class="contact-card">
+							<div class="contact-icon"><img src="assets/icons/gmail.png" alt="Email" style="width:32px;height:32px;"></div>
+							<div class="contact-info">
+								<h3>Email</h3>
+								<p id="email-info">samuelmathewvennalil290604@gmail.com</p>
+							</div>
+							<button class="copy-btn" data-copy="samuelmathewvennalil290604@gmail.com" aria-label="Copy email" title="Copy email"><img src="assets/icons/copy.png" alt="Copy" class="copy-icon"></button>
+						</div>
+						<div class="contact-card">
+							<div class="contact-icon"><img src="assets/icons/phone.png" alt="Phone" style="width:32px;height:32px;"></div>
+							<div class="contact-info">
+								<h3>Phone</h3>
+								<p id="phone-info">+1 (682) 336-5203</p>
+							</div>
+							<button class="copy-btn" data-copy="+16823365203" aria-label="Copy phone" title="Copy phone"><img src="assets/icons/copy.png" alt="Copy" class="copy-icon"></button>
+						</div>
+						<div class="contact-card">
+							<div class="contact-icon"><img src="assets/icons/instagram.png" alt="Instagram" style="width:32px;height:32px;"></div>
+							<div class="contact-info">
+								<h3>Instagram</h3>
+								<p id="insta-info">@samuelmv29</p>
+							</div>
+							<button class="copy-btn" data-copy="samuelmv29" aria-label="Copy Instagram handle" title="Copy Instagram handle"><img src="assets/icons/copy.png" alt="Copy" class="copy-icon"></button>
+						</div>
+						<div class="contact-card">
+							<div class="contact-icon"><img src="assets/icons/linkedin.png" alt="LinkedIn" style="width:32px;height:32px;"></div>
+							<div class="contact-info">
+								<h3>LinkedIn</h3>
+								<p id="linkedin-info">samuel.mv29</p>
+							</div>
+							<button class="copy-btn" data-copy="samuel.mv29" aria-label="Copy LinkedIn handle" title="Copy LinkedIn handle"><img src="assets/icons/copy.png" alt="Copy" class="copy-icon"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<small>© <span id="year"></span> Your Name — Built with HTML, CSS, JS</small>
+			</div>
+		</footer>
+
+		<script src="js/three.min.js"></script>
+		<script src="js/vanta.fog.min.js"></script>
+		<script>
+			// Vanta.js Fog background initialization
+			// applied to the whole page; change `el` to a selector like '.hero' to limit it.
+			VANTA.FOG({
+				el: "body",
+				mouseControls: true,
+				touchControls: true,
+				gyroControls: false,
+				minHeight: 200.00,
+				minWidth: 200.00,
+				highlightColor: 0x3061f,
+				midtoneColor: 0x161738,
+				lowlightColor: 0x272145,
+				baseColor: 0x1c1c38,
+				blurFactor: 0.74,
+				speed: 2.90,
+				zoom: 0.80
+			})
+		</script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
+
