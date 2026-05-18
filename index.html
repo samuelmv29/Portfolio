@@ -9,6 +9,46 @@
 		<!-- Futuristic display font for the logo -->
 		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/styles.css">
+
+		<style>
+			.skills-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+				gap: 1rem;
+				margin-top: 1.5rem;
+			}
+
+			.skill-group {
+				padding: 1.25rem;
+				border: 1px solid rgba(255, 255, 255, 0.12);
+				border-radius: 18px;
+				background: rgba(255, 255, 255, 0.06);
+				backdrop-filter: blur(10px);
+			}
+
+			.skill-group h3 {
+				margin: 0 0 0.85rem;
+				font-size: 1rem;
+				letter-spacing: 0.02em;
+			}
+
+			.skill-list {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.55rem;
+			}
+
+			.skill-pill {
+				display: inline-flex;
+				align-items: center;
+				padding: 0.45rem 0.7rem;
+				border-radius: 999px;
+				background: rgba(255, 255, 255, 0.08);
+				border: 1px solid rgba(255, 255, 255, 0.1);
+				font-size: 0.9rem;
+				line-height: 1;
+			}
+		</style>
 	</head>
 	<body>
 		<header class="site-header">
@@ -53,7 +93,7 @@
 						<div class="edu-header">
 							<div class="edu-summary">
 								<p><strong>University of Texas at Arlington</strong></p>
-								<p>B.S. in Computer Science | 2022–2026 | GPA: 3.92</p>
+								<p>B.S. in Computer Science | 2022–2026 | GPA: 3.93 | Summa Cum Laude</p>
 							</div>
 							<button class="expand-toggle" aria-expanded="false" aria-controls="eduContent"><span>+</span></button>
 						</div>
@@ -64,19 +104,19 @@
 								
 								<div class="edu-item">
 									<p><strong>Honors College</strong></p>
-									<p>Aug 2022 – Present</p>
+									<p>Aug 2022 – May 2026</p>
 								</div>
 								
 								<div class="edu-item">
 									<p><strong>Leadership Honors Program (LHP)</strong></p>
 									<p>Student Director and Member</p>
-									<p>Aug 2023 – Present</p>
+									<p>Aug 2023 – May 2026</p>
 								</div>
 								
 								<div class="edu-item edu-item-last">
 									<p><strong>inSTEM National STEM Scholars Network</strong></p>
 									<p>Scholar</p>
-									<p>Aug 2022 – Present</p>
+									<p>Aug 2022 – May 2026</p>
 								</div>
 								
 								<div class="edu-divider"></div>
@@ -97,6 +137,16 @@
 									<p>Awarded Aug 2025</p>
 								</div>
 								
+								<div class="edu-item">
+									<p><strong>Pettinger Foundation Innovation Award</strong></p>
+									<p>Spring 2026</p>
+								</div>
+
+								<div class="edu-item">
+									<p><strong>Stephen A. Underwood Award</strong></p>
+									<p>Spring 2026</p>
+								</div>
+
 								<div class="edu-item edu-item-last">
 									<p><strong>Maverick Academic Scholarship</strong></p>
 									<p>Awarded Aug 2022</p>
@@ -105,7 +155,7 @@
 								<div class="edu-divider"></div>
 								
 								<div class="transcript-link">
-									<a href="assets/docs/transcript_fall_25.pdf" download class="transcript-download"><span>Download Transcript</span></a>
+									<a href="assets/docs/Spring_2026_transcript.pdf" download class="transcript-download"><span>Download Transcript</span></a>
 								</div>
 							</div>
 						</div>
@@ -136,7 +186,7 @@
 							<div class="timeline-content">
 								<h3>Student Director</h3>
 								<p class="timeline-company">Leadership Honors Program, University of Texas at Arlington</p>
-								<p class="timeline-date">Aug 2023 – Present</p>
+								<p class="timeline-date">Aug 2023 – May 2026</p>
 								<ul class="timeline-details">
 									<li>Organized workshops, events, and service initiatives for leadership development</li>
 									<li>Mentored peers and contributed to program outreach and engagement</li>
@@ -353,35 +403,53 @@
 			<section id="skills" class="section">
 				<div class="container">
 					<h2>Skills</h2>
-					<div class="skills-cloud">
-						<span class="skill-item skill-large">Python</span>
-						<span class="skill-item skill-medium">Java</span>
-						<span class="skill-item skill-large">C</span>
-						<span class="skill-item skill-medium">C++</span>
-						<span class="skill-item skill-large">JavaScript</span>
-						<span class="skill-item skill-medium">SQL</span>
-						<span class="skill-item skill-category">Backend and Full Stack</span>
-						<span class="skill-item skill-small">Backend application development</span>
-						<span class="skill-item skill-medium">RESTful APIs</span>
-						<span class="skill-item skill-small">Full stack web applications</span>
-						<span class="skill-item skill-small">Workflow and task automation</span>
-						<span class="skill-item skill-category">Data and Machine Learning</span>
-						<span class="skill-item skill-small">Data processing and analysis</span>
-						<span class="skill-item skill-small">Applied machine learning</span>
-						<span class="skill-item skill-small">Experimental evaluation and iteration</span>
-						<span class="skill-item skill-small">Data visualization</span>
-						<span class="skill-item skill-category">Systems</span>
-						<span class="skill-item skill-small">Systems programming fundamentals</span>
-						<span class="skill-item skill-small">Memory and process management</span>
-						<span class="skill-item skill-small">Scheduling and concurrency basics</span>
-						<span class="skill-item skill-category">Tools</span>
-						<span class="skill-item skill-medium">Git and GitHub</span>
-						<span class="skill-item skill-medium">Linux</span>
-						<span class="skill-item skill-medium">SQL databases</span>
-						<span class="skill-item skill-category">Leadership</span>
-						<span class="skill-item skill-small">Team collaboration</span>
-						<span class="skill-item skill-small">Technical communication</span>
-						<span class="skill-item skill-small">Mentorship and coordination</span>
+					<div class="skills-grid">
+						<div class="skill-group">
+							<h3>Programming Languages</h3>
+							<div class="skill-list">
+								<span class="skill-pill">Python</span>
+								<span class="skill-pill">Java</span>
+								<span class="skill-pill">C</span>
+								<span class="skill-pill">C++</span>
+								<span class="skill-pill">JavaScript</span>
+								<span class="skill-pill">SQL</span>
+								<span class="skill-pill">PHP</span>
+							</div>
+						</div>
+
+						<div class="skill-group">
+							<h3>Web and Backend</h3>
+							<div class="skill-list">
+								<span class="skill-pill">RESTful APIs</span>
+								<span class="skill-pill">Full Stack Development</span>
+								<span class="skill-pill">Database Design</span>
+								<span class="skill-pill">Backend Development</span>
+								<span class="skill-pill">Workflow Automation</span>
+							</div>
+						</div>
+
+						<div class="skill-group">
+							<h3>Data and Machine Learning</h3>
+							<div class="skill-list">
+								<span class="skill-pill">Data Processing</span>
+								<span class="skill-pill">Applied Machine Learning</span>
+								<span class="skill-pill">Data Visualization</span>
+								<span class="skill-pill">Data Mapping</span>
+								<span class="skill-pill">Experimental Evaluation</span>
+							</div>
+						</div>
+
+						<div class="skill-group">
+							<h3>Systems and Tools</h3>
+							<div class="skill-list">
+								<span class="skill-pill">Linux</span>
+								<span class="skill-pill">Git</span>
+								<span class="skill-pill">GitHub</span>
+								<span class="skill-pill">Systems Programming</span>
+								<span class="skill-pill">Concurrency Fundamentals</span>
+								<span class="skill-pill">CI/CD</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -449,4 +517,3 @@
 		<script src="js/main.js"></script>
 	</body>
 </html>
-
